@@ -1,0 +1,21 @@
+# ==== Virtual environment ====
+venv/
+.venv/
+
+# ==== Kredensial & token — JANGAN pernah di-commit ====
+# Folder di-ignore, tapi README di dalamnya tetap di-track
+secrets/*
+!secrets/README.md
+tokens/*
+!tokens/README.md
+
+# ==== Python cache ====
+__pycache__/
+*.py[cod]
+
+# ==== Data lokal aplikasi ====
+history.json
+
+# ==== Environment variables ====
+.env
+.env.*
